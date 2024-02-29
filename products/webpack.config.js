@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
+      // the name will be used from the calling app
       name: "products",
       filename: "remoteEntry.js",
       exposes: {

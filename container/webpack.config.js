@@ -11,6 +11,7 @@ module.exports = {
       name: "container",
       // get products from products server
       remotes: {
+        // "products@"
         products: "products@http://localhost:8081/remoteEntry.js",
       },
     }),
