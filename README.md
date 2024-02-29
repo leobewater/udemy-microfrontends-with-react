@@ -7,4 +7,7 @@ Video: https://www.udemy.com/course/microfrontend-course/learn/lecture/23206812
 
 > cd container
 > npm run start
+
+> cd cart
+> npm run start
 ```
