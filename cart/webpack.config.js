@@ -12,7 +12,7 @@ module.exports = {
       name: "cart",
       filename: "remoteEntry.js",
       exposes: {
-        "./CartShow": "./src/index.js",
+        "./CartShow": "./src/bootstrap.js",
       },
       // let's share the faker instead of loading twice from products
       shared: ["faker"],
