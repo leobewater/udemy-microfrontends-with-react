@@ -14,6 +14,8 @@ module.exports = {
       exposes: {
         "./ProductsIndex": "./src/index.js",
       },
+      // let's share the faker instead of loading twice from cart
+      shared: ['faker'],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
