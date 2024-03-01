@@ -16,6 +16,9 @@ module.exports = {
       },
       // let's share the faker instead of loading twice from products
       shared: ["faker"],
+      // shared: {
+      //   faker: { singleton: true },
+      // },
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

@@ -16,6 +16,9 @@ module.exports = {
       },
       // let's share the faker instead of loading twice from cart
       shared: ['faker'],
+      // shared: {
+      //   faker: { singleton: true },
+      // },
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
